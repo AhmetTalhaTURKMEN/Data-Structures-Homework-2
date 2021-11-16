@@ -8,7 +8,7 @@ struct node {
 } *head;
 
 
-void insert(int num) {//asıl odev linked list uzunlugu bulmak oldugu icin linked liste eleman eklemek icin internetten biraz yardim aldim
+void insert(int num) {//asil odev linked list uzunlugu bulmak oldugu icin linked liste eleman eklemek icin internetten biraz yardim aldim
     struct node* newNode = (struct node*) malloc(sizeof(struct node));
     newNode->data  = num;
     newNode->next = head;
